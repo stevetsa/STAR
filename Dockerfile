@@ -17,7 +17,7 @@ RUN apt-get install -y git
 # Get latest STAR source from releases
 # Alternatively, get STAR source using git
 RUN git clone https://github.com/stevetsa/STAR.git
-WORKDIR /STAR
+WORKDIR /STAR/source/
 
 # Build STAR
 #RUN pwd
