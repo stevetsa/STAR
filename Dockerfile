@@ -21,7 +21,7 @@ WORKDIR /STAR/source/
 
 # Build STAR
 #RUN pwd
-RUN make STAR
+RUN make STARlong
 
 # To include STAR-Fusion
 RUN git submodule update --init --recursive
