@@ -24,7 +24,7 @@ WORKDIR /STAR/source/
 RUN make STARlong
 
 # To include STAR-Fusion
-# RUN git submodule update --init --recursive
+RUN git submodule update --init --recursive
 
 # If you have a TeX environment, you may like to build the documentation
 # make manual
